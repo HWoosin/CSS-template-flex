@@ -13,10 +13,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
 
     <!-- custom css-->
-    <link rel="stylesheet" href="./css/css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
 
     <!--linear icons-->
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+    <!-- animate css v3.7.0 || https://animate.style -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- slick css || https://kenwheeler.github.io/slick/  -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- libraries -->
+    <!-- scrolla js -->
+    <script src="js/scrolla.jquery.min.js" defer></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js" defer></script>
 
     <script src="./js/config.js" defer></script>
     <script src="./js/gnb-event.js" defer></script>
@@ -68,6 +82,24 @@
                     </div>
                     <span class="scroll">Scroll down</span>
                 </li>
+                <li>
+                    <img src="./img/visual2.jpg" alt="slide image1">
+                    <div class="txt">
+                        <p>Creative design with ICT Studio</p>
+                        <h3>Website & APP, <br>Responsive Web and <br>Brand Identity </h3>
+                        <a href="#">See the work <span class="lnr lnr-chevron-right"></span></a>
+                    </div>
+                    <span class="scroll">Scroll down</span>
+                </li>
+                <li>
+                    <img src="./img/visual3.jpg" alt="slide image1">
+                    <div class="txt">
+                        <p>Creative design with ICT Studio</p>
+                        <h3>Website & APP, <br>Responsive Web and <br>Brand Identity </h3>
+                        <a href="#">See the work <span class="lnr lnr-chevron-right"></span></a>
+                    </div>
+                    <span class="scroll">Scroll down</span>
+                </li>
             </ul>
         </section>
         <!-- end section.visual-->
@@ -86,7 +118,8 @@
             <!-- end main text-->
             <div class="project">
                 <div class="top">
-                    <h3 class="animate" data-animate="fadeInLeft" data-duration="1s" data-delay="0.5s">Meet <br>Out Projects</h3>
+                    <h3 class="animate" data-animate="fadeInLeft" data-duration="1s" data-delay="0.5s">Meet <br>Out
+                        Projects</h3>
                     <a href="#">More Projects
                         <span class="lnr lnr-chevron-right"></span>
                     </a>
@@ -132,7 +165,7 @@
             </div>
             <div class="partner">
                 <h3>우리의 소중한 고객입니다.</h3>
-                <ul>
+                <ul class="animate" data-animate="fadeInRight" data-duration="1s">
                     <li><img src="./img/partner1.png" alt="partner image"></li>
                     <li><img src="./img/partner2.png" alt="partner image"></li>
                     <li><img src="./img/partner3.png" alt="partner image"></li>
@@ -143,8 +176,30 @@
                     <li><img src="./img/partner8.png" alt="partner image"></li>
                 </ul>
             </div>
+            <!-- .contact-->
+            <div class="contact animate" data-animate="fadeIn" data-duration="2s" data-delay="0.5s">
+                <div class="inner">
+                    <h3>당신의 프로젝트를 이야기 해 주세요</h3>
+                    <p class="tel">010.1212.3434</p>
+                    <p>모바일 앱/웹 디자인 및 웹 표준화 작업<br>UI/UX 설계 및 제안서 작성<br>스프링 기반 웹사이트 구축 등을 제공합니다.</p>
+                </div>
+            </div>
         </section>
         <!-- end section.contents-->
+
+        <!-- footer-->
+        <footer>
+            <ul>
+                <li>ICT Studio <br>사업자등록번호: 123-123-12345 <br>대표자: 왱우슁</li>
+                <li>
+                    <span>A : </span>서울 마포구 신수동 맞춰방ICT<br>
+                    <span>T : </span>010.1234.5678 <br>
+                    <span>E : </span>abc1234@naver.com <br>
+                </li>
+                <li>&#xa9 ICT Studio 2023 <br> All Right Reserverd</li>
+            </ul>
+            <a href="#top" class="go-top"><span class="lnr lnr-arrow-up"></span></a>
+        </footer>
     </div>
 
 </body>
